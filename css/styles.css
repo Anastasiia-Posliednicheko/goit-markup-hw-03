@@ -4,6 +4,27 @@
     background-color: #FFFFFF;
 }
 
+ .container {
+     max-width: 1158px;
+     padding: 0 15px;
+     margin: 0 auto;
+
+ }
+
+ .page-header{
+    border-bottom: 1px solid #e7e9fc;
+ }
+.header-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -13,6 +34,11 @@
     letter-spacing: 0.03em; 
     text-transform: uppercase;
     color: #4d5ae5; 
+    
+}
+.header-logo{
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .accent-logo{
@@ -22,15 +48,24 @@
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: #2e2f42;
+            
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+     gap: 40px;
 }
 
 .link{
-
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
+   
 }
 
 .link:hover,
@@ -40,13 +75,28 @@
 
 .address{
     font-style: normal;
+    margin-left: auto;
+   
 }
+
+.address-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
 .link-address{
+    display: block;
+    padding: 24px 0;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        display: flex;
+        align-items: center;
+        
 }
 
 .link-address:hover,
@@ -55,19 +105,33 @@
  }
 
 .page{
-    background: #2e2f42;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .page-title{
-    background-color: #2e2f42;
+    max-width: 496px; 
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;}
+    
 
 .btn {
+    margin: 0 auto;
+    border-radius: 4px;
+    border: none;
+    height: 56px;
+    min-width: 169px;
+    display: block;
+    cursor: pointer;
+    align-items: center;
      font-family: "Roboto", sans-serif;
      cursor: pointer;
      font-weight: 500;
@@ -76,6 +140,9 @@
      letter-spacing: 0.04em;
      color: #fff;
      background: #4d5ae5;
+   
+     
+     
 }
 
 .btn:hover,
@@ -83,9 +150,24 @@
      background-color: #404BBF;
 }
 
-.list{
 
+
+.container-benefits{
+    padding: 120px 0;
 }
+
+.hidden{
+    display: none;
+}
+
+
+.benefits-menu{
+    display: flex;
+    gap: 24px;
+}
+
+
+
 .benefits {
     font-weight: 500;
         font-size: 20px;
@@ -107,6 +189,9 @@
     background-color: #F4F4FD;
 }
 
+.container-team{
+    padding: 120px 0;
+}
 .title-team {
     font-weight: 700;
         font-size: 36px;
@@ -116,6 +201,11 @@
          color: #2e2f42 ;
         text-transform: capitalize;
 
+}
+
+.team-menu{
+    display: flex;
+    gap: 24px;
 }
 .list-team {
     background-color: #FFFFFF;
@@ -142,6 +232,11 @@
 
 }
 
+
+.portfolio{
+    padding: 120px 0;
+    border-bottom: 120px;
+}
 .title-portfolio {
      font-size: 36px;
         line-height: 1.11;
@@ -151,6 +246,20 @@
         text-transform: capitalize;
         background-color: #FFFFFF
 }
+
+
+.menu-portfolio{
+     display: flex;
+        gap: 24px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0;
+    
+}
+ .set{
+    flex-basis: calc((100%-48px) / 3);
+    border-radius: 0px 0px 4px 4px;
+ }
 
 .subject-portfolio {
     font-weight: 500;
@@ -169,9 +278,18 @@
 
 .footer {
     background: #2e2f42;
+    height: 312px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    padding: 100px 0;
 }
 
+
 .logo-footer {
+    margin-bottom: 16px;
+    display: inline-block;
+    text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -181,8 +299,10 @@
     color: #4d5ae5;
 }
 
+
+
 .accent-footer {
-    font-weight: 700;
+    font-weight:700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
@@ -191,6 +311,8 @@
 }
 
 .text-footer {    
+    width: 264px;
+    margin: 16px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -199,10 +321,22 @@
 }
 
 
- 
- 
     
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+ul {  
+    list-style: none;
+}
+
+
  
+
 
 
 
